@@ -107,3 +107,9 @@ ul {
   max-height: 350px;
   object-fit: cover;
 }
+.inner-header {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
