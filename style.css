@@ -147,3 +147,19 @@ ul {
     width: 90%;
   }
 }
+/* === Центрирани изображения (само вътре в параграфи) === */
+p[style*="text-align: center"] img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+
+/* За мобилни устройства */
+@media (max-width: 768px) {
+  p[style*="text-align: center"] img {
+    width: 90%;
+    max-width: 100%;
+  }
+}
