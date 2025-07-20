@@ -62,3 +62,34 @@ ul {
   text-decoration: underline;
   color: #ff9900;
 }
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+    font-size: 0.95rem;
+    background-color: #fffbe6;
+    color: #5a3e1b;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .main-nav a {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  h1, h2, h3, h4 {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .site-logo {
+    max-width: 120px;
+  }
+}
