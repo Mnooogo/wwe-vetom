@@ -135,6 +135,6 @@ ul {
 
 @media (max-width: 768px) {
   .footer-img {
-    max-height: 120px;
+    max-height: 200px;
   }
 }
