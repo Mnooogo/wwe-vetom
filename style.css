@@ -38,6 +38,8 @@ ul {
 }
 
 .main-nav {
+  max-width: 960px;
+  margin: 0 auto;
   background-color: #15710e;
   padding: 10px;
   text-align: center;
@@ -94,19 +96,18 @@ ul {
   }
 }
 .vetom-header {
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 2rem;
+  max-width: 960px;
+  margin: 0 auto 2rem auto;
 }
 
 .header-img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 0;
-  max-height: 350px;
   object-fit: cover;
+  max-height: 350px;
 }
+
 .inner-header {
   width: 100%;
   overflow: hidden;
