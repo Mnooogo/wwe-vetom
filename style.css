@@ -38,10 +38,10 @@ ul {
 }
 
 .main-nav {
-  background-color: #fff0cc;
+  background-color: #355f0d;
   padding: 10px;
   text-align: center;
-  border-bottom: 2px solid #e6c36b;
+  border-bottom: 4px solid #f16e45;
 }
 .main-nav ul {
   list-style: none;
