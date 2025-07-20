@@ -91,7 +91,7 @@ ul {
   height: auto;
   display: block;
   object-fit: cover;
-  max-height: 400px;
+  max-height: 200px;
 }
 
 /* === Продуктови изображения === */
@@ -140,7 +140,7 @@ ul {
   }
 
   .footer-img {
-    max-height: 150px;
+    max-height: 200px;
   }
 
   .product-img {
