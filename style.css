@@ -42,11 +42,15 @@ body {
 
 /* Меню */
 .main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #15710e;
-  padding: 10px;
-  text-align: center;
+  padding: 10px 0;
   border-bottom: 4px solid #a35644;
+  box-sizing: border-box;
 }
+
 
 .main-nav ul {
   list-style: none;
@@ -56,8 +60,10 @@ body {
 }
 
 .main-nav li {
-  margin: 0 15px;
+  display: inline-block;
+  margin: 0 10px;
 }
+
 
 .main-nav a {
   text-decoration: none;
@@ -135,4 +141,12 @@ p[style*="text-align: center"] img {
   p[style*="text-align: center"] img {
     width: 90%;
   }
+}
+.main-nav {
+  flex-direction: column;
+  align-items: center;
+}
+.main-nav li {
+  display: block;
+  margin: 5px 0;
 }
