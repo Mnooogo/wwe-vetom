@@ -93,3 +93,17 @@ ul {
     max-width: 120px;
   }
 }
+.vetom-header {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+  max-height: 350px;
+  object-fit: cover;
+}
