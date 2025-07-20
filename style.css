@@ -31,7 +31,9 @@ ul {
 .site-logo {
   display: block;
   margin: 0 auto;
-  max-width: 100px;
+  max-width: 150px;
+  width: 100%;
   height: auto;
-  margin-bottom: 2rem;
+  image-rendering: crisp-edges; /* ако браузърът го поддържа */
 }
+
