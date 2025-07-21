@@ -41,7 +41,7 @@ ul {
 
 /* === Меню === */
 .main-nav {
-  background-color: #15710e;
+  background: linear-gradient(to bottom, #69af4dd7, #183313d7);
   padding: 10px 0;
   border-bottom: 4px solid #a35644;
   display: flex;
@@ -93,16 +93,11 @@ ul {
 
 /* === Футър === */
 .vetom-footer {
-  width: 100%;
-  margin: 2rem auto 0 auto;
-  overflow: hidden;
-}
-.footer-img {
-  width: 100%;
+    width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
-  max-height: 200px;
+  max-height: 350px;
 }
 
 /* === Продуктови изображения === */
@@ -152,9 +147,7 @@ ul {
     max-height: 220px;
   }
 
-  .footer-img {
-    max-height: 200px;
-  }
+ 
 
   .product-img {
     width: 90%;
@@ -180,7 +173,7 @@ p[style*="text-align: center"] img {
 
 /* === Централен контейнер за съдържание === */
 .container {
-  max-width: 960px;
+  max-width: 918px;
   margin: 0 auto;
   padding: 2rem;
   box-sizing: border-box;
@@ -190,4 +183,24 @@ p[style*="text-align: center"] img {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+  .order-button {
+    display: inline-block;
+    margin: 1rem auto;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(to bottom, #1a2f3ad7, #31b6b6d7);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  .order-button:hover {
+    background: linear-gradient(to bottom, #836a3bd7, #6d2c0ed7);
+  }
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
